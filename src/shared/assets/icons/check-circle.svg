@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.417" height="22.027" viewBox="0 0 22.417 22.027">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #42a9d6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="check-circle" transform="translate(1.002 1.012)">
+    <path id="Path_39" data-name="Path 39" class="cls-1" d="M22,11.08V12a10,10,0,1,1-5.93-9.14" transform="translate(-2 -1.994)"/>
+    <path id="Path_40" data-name="Path 40" class="cls-1" d="M22,4,12,14.01l-3-3" transform="translate(-2 -1.994)"/>
+  </g>
+</svg>

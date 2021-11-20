@@ -1,0 +1,110 @@
+@import "src/shared/styles/colors";
+@import "src/shared/styles/variables";
+@import "src/shared/styles/drop_down";
+@import "src/shared/styles/flex";
+
+
+
+
+
+.second_container{
+	position: relative;
+	height: 100%;
+	flex: auto;
+	align-items: stretch;
+}
+
+.sidebar{
+	position: absolute;
+	// margin-right: 10px;
+	height:110%;
+	top:-10%;
+	bottom: 0;
+	width: 30%;
+	border-top-right-radius: 4em;
+	z-index: 2;
+}
+
+
+.content{
+	width: 90%;
+	right: 0;
+	left:10%;
+	z-index: 3;
+	position: relative;
+	//float: right;
+	background-color: #F3F4F6;
+	border-top-left-radius: 4em;
+	bottom: 0;
+}
+
+.menu{
+	margin-left: 4%;
+}
+
+// .title, .link, .profile-name{
+// 	color: white;
+// }
+.title{
+	top: 0;
+	right: 0;
+	text-align: right;
+}
+
+
+
+
+
+@media #{$medium-screen}{
+	.sidebar{
+		width: 35% !important;
+	}
+	.content{
+		width:  85%;
+		left: 15%;
+	}
+	.menu{
+		margin-left: 6%;
+	}
+	
+}
+@media #{$medium-down-screen}{
+	
+	.content{
+		width: 100%;
+		left: 0;
+		border-radius: 0;
+	}
+}
+
+@media screen and (max-height:560px) {
+	.sidebar{
+		height: 115%;
+		top: -15%;
+	}
+}
+
+@media #{$tall-screen} {
+	.sidebar{
+		height:107%;
+		top:-7%;
+	}
+	.link{
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+}
+
+@media screen and (min-height:1000px) {
+	.sidebar{
+		height: 106%;
+		top:-6%;
+	}
+}
+
+@media screen and (min-height:1200px) {
+	.sidebar{
+		height:105%;
+		top:-5%;
+	}
+}

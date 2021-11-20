@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16.4" viewBox="0 0 18 16.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #063d55;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="filter" class="cls-1" d="M18,3H2l6.4,7.568V15.8l3.2,1.6V10.568Z" transform="translate(-1 -2)"/>
+</svg>

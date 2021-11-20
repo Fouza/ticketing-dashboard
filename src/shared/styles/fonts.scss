@@ -1,0 +1,82 @@
+@import './variables.scss';
+
+:root {
+	--medium-font-size : 16px;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: local('Raleway'), url('../assets/fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway-SemiBold';
+	src: local('Raleway-SemiBold'), url('../assets/fonts/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway-Medium';
+	src: local('Raleway-Medium'), url('../assets/fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Raleway-ExtraBold';
+	src: local('Raleway-ExtraBold'), url('../assets/fonts/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: local('Raleway-Bold'), url('../assets/fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+.raleway{font-family: 'Raleway', sans-serif;}
+.raleway-semibold{font-family: 'Raleway-SemiBold', sans-serif;}
+.raleway-medium{font-family: 'Raleway-Medium', sans-serif;}
+.raleway-extrabold{font-family: 'Raleway-ExtraBold', sans-serif;}
+.raleway-bold{font-family: 'Raleway-Bold', sans-serif;}
+
+.fwthin {font-weight: 100;}
+.fwlight {font-weight: 200;}
+.fwextralight{font-weight: 300;}
+.fwnormal, .regular {font-weight: normal;}
+.git  {font-weight: 600;}
+.fwbold {font-weight: bold;}
+
+.fsitalic {font-style: italic;}
+
+.lhn{line-height: normal;}
+
+@media #{$small-screen} {	
+	.mob__thin {font-weight: 100;}
+	.mob__light {font-weight: 200;}
+	.mob__extralight{font-weight: 300;}
+	.mob__normal, .mob__regular {font-weight: normal;}
+	.mob__medium {font-weight: 500;}
+	.mob__bold {font-weight: bold;}
+	.mob__italic {font-style: italic;}
+	.mob__.lhn{line-height: normal;}
+}
+
+@for $i from 1 through 100 {
+	.fs#{$i} {font-size : #{$i}px;}
+	.fs-rem#{$i} {font-size : #{$i}rem;}
+	.lh#{$i} {line-height: #{$i}px;}
+	.fw#{$i} {font-weight: #{$i};}
+	@media #{$small-screen} {	
+		.mob__fs#{$i} {font-size: #{$i}px !important;}
+		.mob__lh#{$i} {line-height: #{$i}px !important;}
+	}
+	@media #{$tablet-screen} {
+		.tab__fs#{$i} {font-size: #{$i}px !important;}
+		.tab__lh#{$i} {line-height: #{$i}px !important;}
+	}
+}
+
+@for $i from 1 through 10 {
+	.lttr_spc#{$i} {letter-spacing: #{$i}px;}
+	.line#{$i} {-webkit-line-clamp: #{$i};}
+}
+
+.notxtdeco{text-decoration: none}
+

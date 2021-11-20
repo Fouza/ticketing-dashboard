@@ -1,0 +1,106 @@
+@import './colors.scss';
+// for styling we can discuss may solution that can be applied
+// for example creating 3 style file to have all the different css compoent
+// or for each compoenet we will create scss (better for component)
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans',sans-serif;
+}
+* > .ant-dropdown{
+	z-index: 9 !important;
+}
+html,body{
+  background-color: #F3F7F9;
+  margin : 0;
+  height: 100%;
+}
+
+.main_purple_bg{
+	background-color: $main_purple;
+}
+
+.second_purple_bg{
+	background-color: $second_purple;
+}
+
+.gradient_bg{
+	background: rgb(2,0,36);
+	background: linear-gradient(0, rgba(2,0,36,1) 0%, rgba(32,25,64,1) 35%, rgba(48,41,80,1) 62%); 
+}
+
+
+
+
+
+
+//////////////////
+// why
+.yellow-btn{
+	background-color: #FEE005;
+	&:hover{
+		background-color: #f4d705;
+	}
+	&p{
+		background-color: inherit;
+	}
+}
+
+.bgblack{
+	background-color: black;
+}
+
+.bgred{
+	background-color: red;
+}
+
+.bgyellow{
+	background-color: yellow;
+}
+.h100{
+	height: 100%;
+}
+
+.facebook{
+	background-color: #1877F2;
+	color:#FFFFFF;
+	&:hover{
+		background-color: #1877F2;
+		color:#FFFFFF;
+	}
+}
+
+.google{
+	background-color: #FFFFFF;
+	color:$first_grey;
+	&:hover{
+		background-color: #FFFFFF;
+		color:$first_grey;
+	}
+	.btn-icon{
+		width:22px;
+	}
+}
+
+
+
+.white-btn{
+	background-color: transparent;
+	border: 2px solid #063F58;
+	&:hover{
+		background-color: #FFFFFF;
+	}
+	&p{
+		background-color: inherit;
+	}
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.wh-nowrap{
+	white-space: nowrap;
+}

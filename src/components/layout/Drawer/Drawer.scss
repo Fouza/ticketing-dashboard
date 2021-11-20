@@ -1,0 +1,26 @@
+@import "src/shared/styles/colors";
+@import "src/shared/styles/variables";
+@import "src/shared/styles/drop_down";
+@import "src/shared/styles/flex";
+
+.sidebar_drawer{
+	width: 100%;
+}
+
+.MuiDrawer-paperAnchorLeft{
+	width: 30%;
+	background-color: black;
+	z-index: 1300;
+}
+
+@media #{$small-screen}{
+	.MuiDrawer-paperAnchorLeft{
+		width: 40%;
+	}
+}
+
+@media #{$xs-screen}{
+	.MuiDrawer-paperAnchorLeft{
+		width: 70%;
+	}
+}

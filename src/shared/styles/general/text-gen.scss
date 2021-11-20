@@ -1,0 +1,15 @@
+@import "src/shared/styles/variables.scss";
+@import "src/shared/styles/colors.scss";
+.text20 {
+  @extend .fs16;
+  @extend .raleway;
+  @extend .clrblue
+}
+
+@media #{$mini-pc-screen}{
+  .text20{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: $blue
+  }
+}

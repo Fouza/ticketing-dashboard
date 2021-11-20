@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21.996" viewBox="0 0 20 21.996">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #063f58;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="bell" transform="translate(-2 -1)">
+    <path id="Path_32" data-name="Path 32" class="cls-1" d="M18,8A6,6,0,0,0,6,8c0,7-3,9-3,9H21s-3-2-3-9"/>
+    <path id="Path_33" data-name="Path 33" class="cls-1" d="M13.73,21a2,2,0,0,1-3.46,0"/>
+  </g>
+</svg>

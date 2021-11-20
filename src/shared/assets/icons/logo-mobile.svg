@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.381" height="20.028" viewBox="0 0 18.381 20.028">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #063f58;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="logo" transform="translate(1.123 1.03)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M19.136,14.549V7.378a1.793,1.793,0,0,0-.9-1.551L11.964,2.242a1.793,1.793,0,0,0-1.793,0L3.9,5.828A1.793,1.793,0,0,0,3,7.378v7.171A1.793,1.793,0,0,0,3.9,16.1l6.275,3.585a1.793,1.793,0,0,0,1.793,0L18.239,16.1A1.793,1.793,0,0,0,19.136,14.549Z" transform="translate(-3 -2.002)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M3.27,6.96l7.821,4.614L18.913,6.96" transform="translate(-3.023 -2.544)"/>
+    <path id="Path_201" data-name="Path 201" class="cls-2" d="M0,9.21V0" transform="translate(8.068 8.789)"/>
+  </g>
+</svg>

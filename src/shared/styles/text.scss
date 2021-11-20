@@ -1,0 +1,18 @@
+@import "variables";
+
+.txtac {text-align: center;}
+
+.txtar {text-align: right;}
+
+.txtal {text-align: left;}
+
+.txt_underline {text-decoration: underline;}
+
+.txt_deco_none{text-decoration: none;}
+
+@media #{$small-screen} {
+  .mob__txtac {text-align: center;}
+  .mob__txtaj {text-align: justify;}
+  .mob__txtar {text-align: right;}
+  .mob__txtal {text-align: left;}
+}

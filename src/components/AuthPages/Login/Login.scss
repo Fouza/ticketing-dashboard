@@ -1,0 +1,66 @@
+@import '../../../shared/styles/variables';
+@import '../../../shared/styles/colors';
+
+
+.login_box{
+	//place-items: center;
+	//background-color: $main_purple;
+	background-color: $background_white;
+}
+
+.popup-container{
+		background-color: #F3F7F9;
+		border-radius: 5px;
+		position: relative;
+		overflow: auto;
+		max-height: 100vh;
+		margin-top: 10px;
+		//transition: all 5s ease-in-out;
+		@media #{$small-screen} {
+			width: 90%;
+			overflow: scroll;
+		}
+		@media #{$tablet-screen} {
+			width: 60%;
+			overflow: scroll;
+		}
+		@media #{$pc-screen} {
+			width: 40%;
+			overflow: scroll;
+		}
+
+	.popup{
+		padding: 5px 50px 20px;
+		@media #{$xs-screen} {
+			padding: 10px;
+			
+		}
+		.underline{
+			height: 0;
+			border: 10px solid #FEE005;
+			margin-top:-10px;
+			background-color: #FEE005;
+		}
+		.separator{
+			border-bottom: 1px solid #B4C5CD;
+			height: 0;
+			position: absolute;
+			width: 100%;
+			top:100px;
+		}
+		.half-separator{//pr apres
+			border-bottom: 1px solid #B4C5CD;
+			position: relative;
+			height: 0;
+			width: 100%;
+		}
+		.cross-icon{
+			
+		}
+	}
+}
+
+
+.container_popup_overlay{
+	height: 100vh;
+}

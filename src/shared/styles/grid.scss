@@ -1,0 +1,24 @@
+.row{
+  display: flex;
+  //margin-right: -15px;
+  //margin-bottom: -15px;
+  //margin-left: -15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  //align-content: stretch;
+}
+
+.col6{
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  //max-width: 50%;
+  flex-basis: 50%;
+}
+
+
+.center_layout{
+  display: grid;
+  place-items: center;
+  justify-items: center;
+}

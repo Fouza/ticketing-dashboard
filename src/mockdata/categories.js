@@ -1,0 +1,40 @@
+const categories = [
+	{
+		id:0,
+		name:'all'
+	},
+	{
+		id:1,
+		name:'health'
+	},
+	{
+		id:2,
+		name:'community',
+	},
+	{
+		id:3,
+		name:'environnment'
+	},
+	{
+		id:4,
+		name:'education'
+	},
+	{
+		id:5,
+		name:'culture'
+	},
+	{
+		id:6,
+		name:'sport'
+	},
+	{
+		id:7,
+		name:'animals'
+	},
+	{
+		id:8,
+		name:'entrepreneurship'
+	}
+]
+
+export const categories$ = new Promise((resolve, reject) => setTimeout(resolve, 100, categories))

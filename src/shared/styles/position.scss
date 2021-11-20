@@ -1,0 +1,46 @@
+@import "./variables";
+
+.rel {position: relative};
+.stick {position: sticky};
+.abs {position : absolute}
+
+
+
+@for $i from 0 through 100 {
+  .relw#{$i} {
+    position: relative;
+    width: #{$i + "%"};
+  }
+  .relh#{$i} {
+    position: relative;
+    height: #{$i + "%"};
+  }
+  .relw#{$i}vw {
+    position: relative;
+    width: #{$i + "vw"};
+  }
+  .relh#{$i}vh {
+    position: relative;
+    height: #{$i + "vh"};
+  }
+  .relhauto {
+    position: relative;
+    height: auto;
+  }
+
+
+  @media #{$medium-down-screen} {
+    .mob__relw#{$i} {
+      position: relative;
+      width: #{$i + "%"} !important;
+    }
+    .mob__relh#{$i} {
+      position: relative;
+      height: #{$i + "%"} !important;
+    }
+    .mob__relhauto {
+      position: relative;
+      height: auto;
+    }
+  }
+}

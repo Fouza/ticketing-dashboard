@@ -1,0 +1,117 @@
+@import "./variables.scss";
+
+.square12 {
+  width: 12px;
+  height: 12px;
+}
+
+.objf_cover {
+  object-fit: cover;
+}
+.objf_fill {
+  object-fit: fill;
+}
+
+.curs_ptr,
+.curptr {
+  cursor: pointer;
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  &.active{
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media #{$small-screen} {
+  .mob__ {
+    &hide {
+      display: none !important;
+      visibility: hidden !important;
+      width: 0 !important;
+      height: 0 !important;
+    }
+  }
+}
+
+@media #{$medium-down-screen}{
+	.medium__{
+		&hide {
+			display: none !important;
+			visibility: hidden !important;
+			width: 0 !important;
+			height: 0 !important;
+		}
+
+	}
+}
+
+@media #{$tablet-screen}{
+	.tab__{
+		&hide {
+			display: none;
+			visibility: hidden;
+			width: 0;
+			height: 0;
+		}
+	}
+}
+
+@media #{$pc-screen} {
+  .pc__{
+    &hide{
+      display: none;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+@media #{$grand_pc-screen} {
+  .gpc__{
+    &hide{
+      display: none;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+.mobOnly{
+	display: none;
+	@media #{$small-screen} {
+		display: flex;
+	}
+}
+
+.mediumOnly{
+	display: none ;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+	@media #{$medium-down-screen} {
+		display: flex !important;
+		visibility: visible !important;
+		width: inherit !important;
+		height: inherit !important;
+	}
+}
+
+.tabOnly{
+	display: none;
+	@media #{$tablet-screen} {
+		display: flex;
+	}
+}

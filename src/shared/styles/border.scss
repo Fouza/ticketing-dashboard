@@ -1,0 +1,115 @@
+:root {
+  --box-shadow-strong : 0px 3px 7px rgba(0, 0, 0, 0.3);
+  --box-shadow-normal : 0 5px 11px 0 rgba(0, 0, 0, 0.12);
+  --box-shadow-middle: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  --box-shadow-light : 0 1px 2px 0 rgba(74, 74, 74, 0.2);
+  --box-shadow-extra-light : 0 7px 36px 0 rgba(0, 0, 0, 0.05);
+  --box-shadow-35-04 : 0 0 35px 0 rgba(0, 0, 0, 0.04);
+  --box-shadow-10-20-02 : 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  --box-shadow-74--3-9 : -3px 0 9px 0 rgba(74, 74, 74, 0.04);
+  --box-shadow-5--1-03 : 0px 0px 4px -1px rgba(0,0,0,0.3);
+  --border-radius-strong : 15px;
+  --border-radius-normal : 10px;
+  --border-radius-medium : 7px;
+  --border-radius-extralight : 5px;
+  --border-radius-light : 3px;
+  --border-radius-ultra-light : 2px;
+  --text-shadow-light : 1px 1px 2px rgba(0, 0, 0, 0.5);
+  --border-grey-thin : solid 0.6px rgba(151, 151, 151, 0.2);
+  --border-grey-uthin : solid 0.9px #eef0f1;
+  --border-blue-thin: solid 0.9px rgba(74, 144, 226, 0.2);
+  --border-green-thin : solid 1.1px rgba(81, 192, 136, 0.3);
+  --border-white-thick : solid 1.5px #ffffff;
+
+  --border-purple : solid 0.1px #302954;
+}
+
+.bord_purple {border : var(--border-purple)}
+.box_shadow_light { box-shadow: var(--box-shadow-light);}
+
+
+.bord_grey_thin {border: var(--border-grey-thin);}
+.bbord_grey_thin {border-bottom: var(--border-grey-thin);}
+.tbord_grey_thin {border-top: var(--border-grey-thin);}
+.lbord_grey_thin {border-left: var(--border-grey-thin);}
+.rbord_grey_thin {border-right: var(--border-grey-thin);}
+.vbord_grey_thin {
+  border-bottom: var(--border-grey-thin);
+  border-top: var(--border-grey-thin);
+}
+
+@for $i from 0 through 20 {
+  .brad#{$i} {border-radius: #{$i + "px"};}
+  .bradtl_#{$i} {border-top-left-radius: #{$i + "px"};}
+  .bradtr_#{$i} {border-top-right-radius: #{$i + "px"};}
+  .bradbl_#{$i} {border-bottom-left-radius: #{$i + "px"};}
+  .bradbr_#{$i} {border-bottom-right-radius: #{$i + "px"};}
+  .bradt_#{$i} {
+    border-top-left-radius: #{$i + "px"};
+    border-top-right-radius: #{$i + "px"};
+  }
+  .bradr_#{$i} {
+    border-top-right-radius: #{$i + "px"};
+    border-bottom-right-radius: #{$i + "px"};
+  }
+  .bradb_#{$i} {
+    border-bottom-left-radius: #{$i + "px"};
+    border-bottom-right-radius: #{$i + "px"};
+  }
+  .bradl_#{$i} {
+    border-top-left-radius: #{$i + "px"};
+    border-bottom-left-radius: #{$i + "px"};
+  }
+}
+
+$bradkinds: "light", "extralight", "normal", "medium", "strong";
+@each $bradkind in $bradkinds {
+  .brad_#{$bradkind} {border-radius: var(--border-radius-#{$bradkind});}
+  .bradtl_#{$bradkind} {border-top-left-radius: var(--border-radius-#{$bradkind});}
+  .bradtr_#{$bradkind} {border-top-right-radius: var(--border-radius-#{$bradkind});}
+  .bradbl_#{$bradkind} {border-bottom-left-radius: var(--border-radius-#{$bradkind});}
+  .bradbr_#{$bradkind} {border-bottom-right-radius: var(--border-radius-#{$bradkind});}
+  .bradt_#{$bradkind} {
+    border-top-left-radius: var(--border-radius-#{$bradkind});
+    border-top-right-radius: var(--border-radius-#{$bradkind});
+  }
+  .bradr_#{$bradkind} {
+    border-top-right-radius: var(--border-radius-#{$bradkind});
+    border-bottom-right-radius: var(--border-radius-#{$bradkind});
+  }
+  .bradb_#{$bradkind} {
+    border-bottom-left-radius: var(--border-radius-#{$bradkind});
+    border-bottom-right-radius: var(--border-radius-#{$bradkind});
+  }
+  .bradl_#{$bradkind} {
+    border-top-left-radius: var(--border-radius-#{$bradkind});
+    border-bottom-left-radius: var(--border-radius-#{$bradkind});
+  }
+}
+
+.brad_inherit {border-radius: inherit;}
+.brad_circle {border-radius: 50%;}
+
+@for $i from 0 through 20 {
+  .brad#{$i} {border-radius: #{$i}px;}
+  .bradtl#{$i} {border-top-left-radius: #{$i}px;}
+  .bradtr#{$i} {border-top-right-radius: #{$i}px;}
+  .bradbl#{$i} {border-bottom-left-radius: #{$i}px;}
+  .bradbr#{$i} {border-bottom-right-radius: #{$i}px;}
+  .bradt#{$i} {
+    border-top-left-radius: #{$i}px;
+    border-top-right-radius: #{$i}px;
+  }
+  .bradr#{$i} {
+    border-top-right-radius: #{$i}px;
+    border-bottom-right-radius: #{$i}px;
+  }
+  .bradb#{$i} {
+    border-bottom-left-radius: #{$i}px;
+    border-bottom-right-radius: #{$i}px;
+  }
+  .bradl#{$i} {
+    border-top-left-radius: #{$i}px;
+    border-bottom-left-radius: #{$i}px;
+  }
+}

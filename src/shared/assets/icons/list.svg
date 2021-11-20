@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #063f58;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="list" transform="translate(-2 -5)">
+    <line id="Line_19" data-name="Line 19" class="cls-1" x2="13" transform="translate(8 6)"/>
+    <line id="Line_20" data-name="Line 20" class="cls-1" x2="13" transform="translate(8 12)"/>
+    <line id="Line_21" data-name="Line 21" class="cls-1" x2="13" transform="translate(8 18)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-1" x2="0.01" transform="translate(3 6)"/>
+    <line id="Line_23" data-name="Line 23" class="cls-1" x2="0.01" transform="translate(3 12)"/>
+    <line id="Line_24" data-name="Line 24" class="cls-1" x2="0.01" transform="translate(3 18)"/>
+  </g>
+</svg>

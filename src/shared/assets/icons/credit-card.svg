@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #063f58;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="credit-card" transform="translate(0 -3)">
+    <rect id="Rectangle_447" data-name="Rectangle 447" class="cls-1" width="22" height="16" rx="2" transform="translate(1 4)"/>
+    <line id="Line_34" data-name="Line 34" class="cls-1" x2="22" transform="translate(1 10)"/>
+  </g>
+</svg>

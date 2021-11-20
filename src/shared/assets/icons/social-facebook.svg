@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ffffff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="20" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" class="cls-2">
+    <rect id="Rectangle_392" data-name="Rectangle 392" class="cls-1" width="20" height="20"/>
+    <path id="Path_1" data-name="Path 1" class="cls-3" d="M86.709,19.8V10.778h3.079l.44-3.519H86.709v-2.2c0-.99.33-1.76,1.76-1.76h1.87V.11C89.9.11,88.8,0,87.588,0a4.245,4.245,0,0,0-4.509,4.619V7.259H80v3.519h3.079V19.8Z" transform="translate(-75.051 0.001)"/>
+  </g>
+</svg>

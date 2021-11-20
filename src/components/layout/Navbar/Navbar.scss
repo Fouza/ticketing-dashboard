@@ -1,0 +1,50 @@
+@import "src/shared/styles/colors";
+@import "src/shared/styles/variables";
+@import "src/shared/styles/drop_down";
+@import "src/shared/styles/flex";
+
+
+.drawer_button{
+	display: none ;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+
+}
+
+.icon_button{
+	width: -moz-fit-content;
+	height: -moz-fit-content;
+	
+}
+
+
+.navbar{
+	top: 0;
+	left: 0;
+	height: 90px;
+	top: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.new_button, .new_icon{
+	color: $main_purple !important;
+}
+.new_button > span {
+	color: $main_purple !important;
+}
+
+.main_green_bg{
+	background: $main_green !important;
+}
+
+
+
+@media #{$medium-down-screen}{
+	.navbar{
+		z-index: 0 ;
+		height: 48px !important;
+		justify-content: space-between !important;
+	}
+}

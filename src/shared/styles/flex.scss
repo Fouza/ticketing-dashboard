@@ -1,0 +1,108 @@
+@import "./variables.scss";
+
+.flex {display: flex;}
+.hidden{display:none;}
+.iflex {display: inline-flex;}
+.grid {display: grid;}
+.iblock {display: inline-block;}
+.block{display: block}
+.centerall {
+  justify-content: center;
+  align-items: center;
+}
+.fdc {flex-direction: column;}
+.fdcr {flex-direction: column-reverse;}
+.fdr {flex-direction: row;}
+.fdrr {flex-direction: row-reverse;}
+.jcc {justify-content: center;}
+.jcfs {justify-content: flex-start;}
+.jcfe {justify-content: flex-end;}
+.jcsb {justify-content: space-between;}
+.jcsa {justify-content: space-around;}
+.jcse {justify-content: space-evenly;}
+.aic {align-items: center;}
+.aifs {align-items: flex-start;}
+.aife {align-items: flex-end;}
+.ais {align-items: stretch;}
+.aib {align-items: baseline;}
+.fww {flex-wrap: wrap;}
+.fnw {flex-wrap: nowrap;}
+@media #{$small-screen} {
+  .mob__centerall {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .mob__fdc {flex-direction: column !important;}
+  .mob__fdcr {flex-direction: column-reverse !important;}
+  .mob__fdr {flex-direction: row !important;}
+  .mob__fdrr {flex-direction: row-reverse !important;}
+  .mob__jcc {justify-content: center !important;}
+  .mob__jcfs {justify-content: flex-start !important;}
+  .mob__jcfe {justify-content: flex-end !important;}
+  .mob__jcsb {justify-content: space-between !important;}
+  .mob__jcsa {justify-content: space-around !important;}
+  .mob__jcse {justify-content: space-evenly !important;}
+  .mob__aic {align-items: center !important;}
+  .mob__aifs {align-items: flex-start !important;}
+  .mob__aife {align-items: flex-end !important;}
+  .mob__ais {align-items: stretch !important;}
+  .mob__aib {align-items: baseline !important;}
+  .mob__fww {
+    flex-wrap: wrap !important;
+  }
+  .mob__fnw {
+	flex-wrap: nowrap !important;
+  }
+}
+
+.asc {
+  align-self: center;
+}
+.asfs {
+  align-self: flex-start;
+}
+.asfe {
+  align-self: flex-end;
+}
+.ass {
+  align-self: stretch;
+}
+.asb {
+  align-self: baseline;
+}
+
+@media #{$small-screen} {
+  .mob__asc {
+    align-self: center !important;
+  }
+  .mob__asfs {
+    align-self: flex-start !important;
+  }
+  .mob__asfe {
+    align-self: flex-end !important;
+  }
+  .mob__ass {
+    align-self: stretch !important;
+  }
+  .mob__asb {
+    align-self: baseline !important;
+  }
+}
+
+@for $i from 0 through 10 {
+  .f#{$i} {flex: #{$i};}
+  .fg#{$i} {flex-grow : #{$i}}
+  .fshrink#{$i} {flex-shrink: #{$i};}
+
+}
+@media #{$small-screen} {
+	@for $i from 0 through 10 {
+		.mob__f#{$i} {flex:#{$i} !important}
+	}
+}
+//flex basis
+
+.fxb{flex-basis: auto}
+@for $i from 1 through 500{
+  .fxb#{$i}{flex-basis: #{$i}px}
+}

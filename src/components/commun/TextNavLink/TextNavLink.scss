@@ -1,0 +1,10 @@
+@import "src/shared/styles/colors";
+
+
+.selected{
+	color : $main_green !important;
+	// background-color: $main_green;
+	p{
+		color : $main_green !important;
+	}
+}

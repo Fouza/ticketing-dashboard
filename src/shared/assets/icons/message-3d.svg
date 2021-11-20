@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.785" height="18" viewBox="0 0 22.785 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f3f7f9;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #063f58;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="mail_2_" data-name="mail (2)" transform="translate(-0.607 -3)">
+    <path id="Path_105" data-name="Path 105" class="cls-1" d="M4,4H20a2.006,2.006,0,0,1,2,2V18a2.006,2.006,0,0,1-2,2H4a2.006,2.006,0,0,1-2-2V6A2.006,2.006,0,0,1,4,4Z"/>
+    <path id="Path_106" data-name="Path 106" class="cls-2" d="M22,6,12,13,2,6"/>
+  </g>
+</svg>
